@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "build",
-            "type":"cppdbg",
+            "type":"cppdbg",  // cppdbg 是GCC编译器用的，cppvsdbg是MSVC编译器用的
             "request": "launch",
             "program": "${command:cmake.launchTargetPath}", // ${command:cmake.launchTargetPath}作用：生成目标并返回目标路径
             "args": [],
