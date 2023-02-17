@@ -13,7 +13,8 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": false,  // GCC编译器用
+            // "console": "externalTerminal"  // MSVC编译器用 
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
             "setupCommands": [
